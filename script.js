@@ -7,3 +7,4 @@ function getapidata(cityname) {
 }
 
 getapidata("london");
+
