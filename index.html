@@ -1,102 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Weather Dashboard</title>
 </head>
-
 <body>
 
-    <section class="vh-100" style="background-color: #cdc4f9;">
-        
-        <div class="container py-5 h-100">
-          <div class="row d-flex justify-content-center align-items-center h-100">
-            <input type="search" class="form-control rounded" placeholder="City" aria-label="Search" </div>
-            <div class="col-md-12 col-xl-10">
-      
-              <div class="card shadow-0 border border-dark border-5 text-dark" style="border-radius: 10px;">
-                <div class="card-body p-4">
-      
-                  <div class="row text-center">
-                    <div class="col-md-9 text-center border-end border-5 border-dark py-4" style="margin-top: -1.5rem; margin-bottom: -1.5rem;">
-                      <div class="d-flex justify-content-around mt-3">
-                        <p class="small">Toronto</p>
-                        <p class="small">21.02.2021</p>
-                        <p class="small">Rain map</p>
-                      </div>
-                      <div class="d-flex justify-content-around align-items-center py-5 my-4">
-                        <p class="fw-bold mb-0" style="font-size: 7rem;">-4°C</p>
-                        <div class="text-start">
-                          <p class="small">10:00</p>
-                          <p class="h3 mb-3">Sunday</p>
-                          <p class="small mb-0">Cloudy</p>
-                        </div>
-                      </div>
-                      <div class="d-flex justify-content-around align-items-center mb-3">
-                        <div class="flex-column">
-                          <i class="fas fa-minus"></i>
-                        </div>
-                        <div class="flex-column border" style="border-radius: 10px; padding: .75rem">
-                          <p class="small mb-1">Sun</p>
-                          <p class="small mb-0"><strong>-4°C</strong></p>
-                        </div>
-                        <div class="flex-column">
-                          <p class="small mb-1">Mon</p>
-                          <p class="small mb-0"><strong>-4°C</strong></p>
-                        </div>
-                        <div class="flex-column">
-                          <p class="small mb-1">Tue</p>
-                          <p class="small mb-0"><strong>-4°C</strong></p>
-                        </div>
-                        <div class="flex-column">
-                          <p class="small mb-1">Wed</p>
-                          <p class="small mb-0"><strong>-4°C</strong></p>
-                        </div>
-                        <div class="flex-column">
-                          <p class="small mb-1">Thu</p>
-                          <p class="small mb-0"><strong>-4°C</strong></p>
-                        </div>
-                        <div class="flex-column">
-                          <p class="small mb-1">Fri</p>
-                          <p class="small mb-0"><strong>-4°C</strong></p>
-                        </div>
-                        <div class="flex-column">
-                          <p class="small mb-1">Sat</p>
-                          <p class="small mb-0"><strong>-4°C</strong></p>
-                        </div>
-                        <div class="flex-column">
-                          <i class="fas fa-minus"></i>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-3 text-end">
-                      <p class="small mt-3 mb-5 pb-5">For a month</p>
-                      <p class="pb-1"><span class="pe-2">11:00</span>  <strong>-4°</strong></p>
-                      <p class="pb-1"><span class="pe-2">12:00</span>  <strong>-4°</strong></p>
-                      <p class="pb-1"><span class="pe-2">13:00</span>  <strong>-5°</strong></p>
-                      <p class="pb-1"><span class="pe-2">14:00</span>  <strong>-7°</strong></p>
-                      <p class="pb-1"><span class="pe-2">15:00</span>  <strong>-6°</strong></p>
-                      <p class="pb-1"><span class="pe-2">16:00</span>  <strong>-4°</strong></p>
-                      <p><span class="pe-2">17:00</span>  <strong>-3°</strong></p>
-                    </div>
-                  </div>
-      
+    <nav class="navbar navbar-light bg-dark">
+        <h1>Weather Dashboard</h1>
+    </nav>
+
+    <div class="row">
+
+          <div class="col-3">
+            <form id="cityinputform">
+              <h3>Search for a City:</h3>
+              <input class="form-input form-label" type="text" placeholder="Search.." name="city" id="cityinput">
+              <button type="submit" class="btn fa fa-search" id="searchbtnid"></button>
+            </form>
+          </div>
+
+
+          <div class="col-9" id="weatherdataid">
+            <h3><span id="city-search-term"></span></h3>   
+            
+            <div id="result-container" >
+                <h3 id="city-container"></h3>
+                <img id="icon">
+              
+                <div>
+                  <p id="temperature"></p>
+                  <p id="humidity"></p>
+                  <p id="windspeed"></p>
+                  <p><span id="uvindex" class=""></span></p>
+                  <img id="uvicon">
                 </div>
-              </div>
-      
             </div>
           </div>
-        </div>
-      </section>
-   
-</body>
-<script src="./script.js"></script>
 
+
+          <div class="col-3">
+                <ul class="list-group" id="searchresultlistcontainer">
+                </ul>
+          </div>
+
+    
+          <div class="col-9">
+
+                <div class="row hidden" id="hidden">
+                  <div class="col-12">
+                        <div id="fiveday-container" class="list-group">
+                        <h3 id="fivedayforecast"></h3>
+                  </div>
+                </div>
+
+
+                <div id="fiveday-container" class="list-group">
+                    <h3 id="fivedayforecast"></h3>
+                </div>
+
+
+                <div class="card " style="width: 9rem;">
+                  <div class="card-body" id="cardbody1">
+                    <h5 class="card-title" id="futureday1title">Card title</h5>
+                    <img id=futureday1icon />
+                    <p class="card-text" id="futuredaytemp1">Temp: </p>
+                    <p class="card-text" id="futuredayhum1">Humidity: </p>
+                  </div>
+                </div>
+            
+                <div class="card " style="width: 9rem;">
+                  <div class="card-body" id="cardbody2">
+                    <h5 class="card-title" id="futureday2title">Card title</h5>
+                    <img id=futureday2icon />
+                    <p class="card-text" id="futuredaytemp2">Temp: </p>
+                    <p class="card-text" id="futuredayhum2">Humidity: </p>
+                  </div>
+                </div>
+
+                <div class="card" style="width: 9rem;">
+                  <div class="card-body" id="cardbody3">
+                    <h5 class="card-title" id="futureday3title">Card title</h5>
+                    <img id=futureday3icon />
+                    <p class="card-text" id="futuredaytemp3">Temp: </p>
+                    <p class="card-text" id="futuredayhum3">Humidity: </p>
+                  </div>
+                </div>
+
+                <div class="card" style="width: 9rem;">
+                  <div class="card-body" id="cardbody4">
+                    <h5 class="card-title" id="futureday4title">Card title</h5>
+                    <img id=futureday4icon />
+                    <p class="card-text" id="futuredaytemp4">Temp: </p>
+                    <p class="card-text" id="futuredayhum4">Humidity: </p>
+                  </div>
+                </div>
+
+                <div class="card" style="width: 9rem;">
+                  <div class="card-body" id="cardbody5">
+                    <h5 class="card-title" id="futureday5title">Card title</h5>
+                    <img id=futureday5icon />
+                    <p class="card-text" id="futuredaytemp5">Temp: </p>
+                    <p class="card-text" id="futuredayhum5">Humidity: </p>
+                  </div>
+                </div>
+
+          </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
 </html>
